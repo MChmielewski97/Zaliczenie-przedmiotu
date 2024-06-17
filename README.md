@@ -1,9 +1,32 @@
 # Zaliczenie-przedmiotu
 
+I. Wprowadzenie:
+
+To repozytorium zawiera pliki z zajęć Narzędzia procesu tworzenia programowania oraz wyśmienitą grę napisaną w języku python.
+
+
+II. Struktura repozytorium:
+
+Repozytorium ma następującą strukturę:
+
+- Pliki z zajęć
+- Aplikację
+- Plik README
+
+III. Aplikacja:
+
+Katalog Aplikacja zawiera kod ponadczasowej gry w papier/kamień/nożycę.
+
+
+IV. Uruchamianie aplikacji:
+
+Instrukcje dotyczące uruchamiania aplikacji znajdują się w poniżej:
+
+
 1. Wymagania:
 
 - Komputer z systemem Windows,
-- Zainstalowane środowisko do obsługi języka python (PyCharm/VStudio),
+- Zainstalowane środowisko do obsługi języka python (PyCharm/VStudio).
 
 2. Kroki:
 
