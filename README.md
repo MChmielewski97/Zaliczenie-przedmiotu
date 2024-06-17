@@ -2,7 +2,7 @@
 
 I. Wprowadzenie:
 
-To repozytorium zawiera pliki z zajęć Narzędzia procesu tworzenia programowania oraz wyśmienitą grę napisaną w języku python.
+To repozytorium zawiera pliki z zajęć "Narzędzia procesu tworzenia programowania" oraz wyśmienitą grę napisaną w języku python.
 
 
 II. Struktura repozytorium:
