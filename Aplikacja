@@ -1,0 +1,45 @@
+def get_user_choice():
+  while True:
+    choice = input("Wybierz papier, kamień lub nożyce: ").lower()
+    if choice in ["papier", "kamień", "nożyce"]:
+      return choice
+    else:
+      print("Nieprawidłowy wybór. Spróbuj ponownie.")
+
+def get_computer_choice():
+  choices = ["papier", "kamień", "nożyce"]
+  return random.choice(choices)
+
+def determine_winner(user_choice, computer_choice):
+  print(f"Użytkownik wybrał: {user_choice}, Komputer wybrał: {computer_choice}")
+
+  if user_choice == computer_choice:
+    print("Remis!")
+  elif user_choice == "papier":
+    if computer_choice == "kamień":
+      print("Wygrywasz!")
+    else:
+      print("Przegrywasz!")
+  elif user_choice == "kamień":
+    if computer_choice == "nożyce":
+      print("Wygrywasz!")
+    else:
+      print("Przegrywasz!")
+  else:  # user_choice == "nożyce"
+    if computer_choice == "papier":
+      print("Wygrywasz!")
+    else:
+      print("Przegrywasz!")
+
+def play_game():
+  user_choice = get_user_choice()
+  computer_choice = get_computer_choice()
+  determine_winner(user_choice, computer_choice)
+
+  play_again = input("Czy chcesz zagrać ponownie? (tak/nie): ").lower()
+  if play_again == "tak":
+    play_game()
+
+if __name__ == "__main__":
+  play_game()
+papier
