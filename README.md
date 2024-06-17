@@ -28,11 +28,10 @@ Instrukcje dotyczące uruchamiania aplikacji znajdują się w poniżej:
 - Komputer z systemem Windows,
 - Zainstalowane środowisko do obsługi języka python (PyCharm/VStudio).
 
+
 2. Kroki:
 
-Zapisz kod gry:
-
-- Skopiuj kod gry, który został Ci udostępniony,
+- Skopiuj kod gry z folderu "Aplikacja",
 - Wklej kod do edytora tekstu lub bezpośrednio do środowiska,
 - "Uruchom" kod.
 
